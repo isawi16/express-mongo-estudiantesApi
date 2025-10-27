@@ -5,7 +5,6 @@ const getEstudiantes = async (req, res = response) => {
     try {
         const { page = 1, limit = 50 } = req.query;
         const skip = (Number(page) - 1) * Number(limit);
-        console.log("skip: "+skip);
         const {items, total} = await listar(skip, limit);
         res.json({ total, page: Number(page), limit: Number(limit), items });
     } catch (error) {
