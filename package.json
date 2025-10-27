@@ -10,7 +10,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1",
-    "mongoose": "^8.7.1"
-  }
+    "express": "^4.21.2",
+    "mongoose": "^8.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdominguez/express-mongo-estudiantesApi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdominguez/express-mongo-estudiantesApi/issues"
+  },
+  "homepage": "https://github.com/sdominguez/express-mongo-estudiantesApi#readme"
 }

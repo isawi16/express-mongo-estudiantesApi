@@ -13,6 +13,7 @@ mongoose.connect(mongoDBURI)
 
 
 app.use('/api/estudiantes', require('./routes/estudiantes'));
+app.use('/api/profesores', require('./routes/profesores'));
 
 
 app.listen(3033, () => {
